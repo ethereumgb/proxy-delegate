@@ -1,2 +1,2 @@
-# delegate-call-example
-An example on how delegate call works
+# ProxyDelegate
+An example on how to use delegate call
