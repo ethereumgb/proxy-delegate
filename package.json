@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/ethereumgb/delegate-call-exercise/issues"
   },
-  "homepage": "https://github.com/ethereumgb/delegate-call-exercise#readme"
+  "homepage": "https://github.com/ethereumgb/delegate-call-exercise#readme",
+  "devDependencies": {
+    "ethers": "^4.0.44",
+    "truffle": "^5.1.11",
+    "truffle-assertions": "^0.9.2"
+  }
 }
