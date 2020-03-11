@@ -3,7 +3,6 @@ const SomeLibrary = artifacts.require('SomeLibrary');
 const truffleAssert = require('truffle-assertions');
 const ethers = require('ethers');
 const utils = ethers.utils;
-const BN = require('bn.js');
 
 contract("ProxyDelegate", accounts => {
     let proxy;
@@ -50,6 +49,6 @@ contract("ProxyDelegate", accounts => {
 
         // check if the version in lib is set
         const version = await lib.version();
-        assert.equal(version, new BN(expectedVersion), "version mismatch");
+        assert.equal(version, 1, "version mismatch");
     });
 });
